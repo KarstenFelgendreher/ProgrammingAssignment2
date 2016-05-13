@@ -19,7 +19,7 @@ makeCacheMatrix <- function(){
   }
 
   setInverse <- function(matrix){
-    inverseMatrix <<- solve(matrix)
+    inverseMatrix <<- matrix
   }
   
   getCachedInverse <- function(){
